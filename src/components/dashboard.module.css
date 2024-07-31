@@ -1,0 +1,85 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #6a1b9a;
+    color: white;
+  }
+  
+  .logout-button {
+    background-color: white;
+    color: #6a1b9a;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dashboard-nav {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .dashboard-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-nav a {
+    color: #6a1b9a;
+    text-decoration: none;
+  }
+  
+  .create-task-button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    padding: 20px;
+    background-color: #e0e0e0;
+  }
+  
+  .tasks-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tasks-board {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .task-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .task-card {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
